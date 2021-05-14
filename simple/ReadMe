@@ -1,0 +1,9 @@
+本目录主要实现如下功能:
+1.用户注册 register.php
+  如果用户的手机号未注册,则注册用户,用户的注册信息 存放到 register 目录,文件名:user_手机号.txt 文件的内容为 密码
+2.用户登陆 login.php
+  用户的登录的信息 存放到 login 目录 文件名::login_手机号.txt 文件的内容为 登陆的token
+3.用户登出 logout.php
+  用户退出  清空 login 目录的 的文件
+4.密码修改 modify.php
+  修改目录 register 目录 对应的文件的内容 user_手机号.txt
